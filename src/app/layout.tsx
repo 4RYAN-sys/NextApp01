@@ -1,20 +1,22 @@
-// app/layout.tsx
-import "./globals.css";
-import React from "react";
+import './globals.css'
+import Navbar from '../components/Navbar'
 
 export const metadata = {
-  title: "Landing Page Pribadi",
-  description: "Website pribadi saya dengan Next.js dan TailwindCSS",
-};
+  title: 'Chimera Prime',
+  description: 'Empowering Growth with Seamless Technical Solutions',
+}
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
-    <html lang="id">
-      <body>{children}</body>
+    <html lang="en">
+      <body className="bg-white text-primary font-sans">
+        <Navbar />
+        {children}
+      </body>
     </html>
-  );
+  )
 }
