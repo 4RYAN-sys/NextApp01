@@ -2,7 +2,7 @@ import './globals.css'
 import Navbar from '../components/Navbar'
 
 export const metadata = {
-  title: 'Chimera Prime',
+  title: 'Chimera Ant',
   description: 'Empowering Growth with Seamless Technical Solutions',
 }
 
