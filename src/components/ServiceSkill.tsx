@@ -1,12 +1,13 @@
 import { IconType } from 'react-icons';
-import { SiTypescript, SiJavascript, SiReact, SiNodedotjs, SiPython } from 'react-icons/si';
+import { SiTypescript, SiJavascript, SiReact, SiNodedotjs, SiPython, SiHtml5 } from 'react-icons/si';
 
 const skills: { icon: IconType; name: string }[] = [
   { icon: SiTypescript, name: 'TypeScript' },
   { icon: SiJavascript, name: 'JavaScript' },
   { icon: SiReact, name: 'React.js' },
   { icon: SiNodedotjs, name: 'Node.js' },
-  { icon: SiPython, name: 'Python' },
+  { icon: SiHtml5, name: 'HTML5' },
+ 
 ];
 
 export default function CareerSkills() {
