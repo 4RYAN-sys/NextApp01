@@ -10,7 +10,6 @@ export default function Navbar() {
         <li><Link href="/careers">Careers</Link></li>
         
       </ul>
-      <button className="bg-secondary px-4 py-2 rounded hover:bg-blue-700">Client login</button>
     </nav>
   )
 }
